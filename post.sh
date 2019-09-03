@@ -29,11 +29,11 @@ gsettings set org.gnome.desktop.screensaver lock-enabled true
 
 apt-get install libc6-dev-i386 -y
 
-adduser mrr3b00t
+adduser s0lari
 # you will be prompted for a password
 #now make them a member of sudo
 #thanks for the shout @7hunderSon :P
-usermod -aG sudo mrr3b00t
+usermod -aG sudo s0lari
 #configure ssh to now allow passwords or root logins – manual task
 #set ssh to start automatically
 systemctl enable ssh.service
